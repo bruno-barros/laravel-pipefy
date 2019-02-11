@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6465f52b-2b8e-4dce-9949-0e61cc8e8fe4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../laravel-mautic-api-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-mautic-api-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pipefy.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
-              <folding>
-                <element signature="e#40#90#0#PHP" expanded="true" />
-                <element signature="e#1684#2293#0#PHP" />
-              </folding>
+            <state relative-caret-position="-42">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/pipefy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Facades/Pipefy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -31,151 +46,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Factories/PipefyFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="56" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-              <folding>
-                <element signature="e#1239#1664#0#PHP" />
-              </folding>
+            <state relative-caret-position="356">
+              <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Wrapper.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pipefy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="226" column="21" selection-start-line="221" selection-start-column="8" selection-end-line="226" selection-end-column="21" />
+            <state relative-caret-position="1680">
+              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
               <folding>
-                <element signature="e#126#145#0#PHP" expanded="true" />
-                <element signature="e#483#609#0#PHP" />
-                <element signature="e#635#1216#0#PHP" />
-                <element signature="e#1301#1640#0#PHP" />
-                <element signature="e#1646#2997#0#PHP" />
-                <element signature="e#3003#4038#0#PHP" />
-                <element signature="e#3273#3450#0#PHP" />
-                <element signature="e#3349#3439#0#PHP" />
-                <element signature="e#3459#3900#0#PHP" />
-                <element signature="e#3500#3890#0#PHP" />
-                <element signature="e#3544#3876#0#PHP" />
-                <element signature="e#3592#3805#0#PHP" />
-                <element signature="e#3950#4010#0#PHP" />
-                <element signature="e#4044#6429#0#PHP" />
-                <element signature="e#4100#4259#0#PHP" />
-                <element signature="e#4219#4259#0#PHP" />
-                <element signature="e#4269#4578#0#PHP" />
-                <element signature="e#4534#4578#0#PHP" />
-                <element signature="e#6156#6206#0#PHP" />
-                <element signature="e#6321#6401#0#PHP" />
-                <element signature="e#6492#6808#0#PHP" />
-                <element signature="e#6820#8363#0#PHP" />
-                <element signature="e#6884#7094#0#PHP" />
-                <element signature="e#7107#8193#0#PHP" />
-                <element signature="e#7295#7419#0#PHP" />
-                <element signature="e#7359#7419#0#PHP" />
-                <element signature="e#7450#7565#0#PHP" />
-                <element signature="e#7578#8193#0#PHP" />
-                <element signature="e#7730#8057#0#PHP" />
-                <element signature="e#7763#7841#0#PHP" />
-                <element signature="e#7862#7940#0#PHP" />
-                <element signature="e#7961#8039#0#PHP" />
-                <element signature="e#8076#8193#0#PHP" />
-                <element signature="e#8209#8363#0#PHP" />
-                <element signature="e#8319#8363#0#PHP" />
-                <element signature="e#8369#8457#0#PHP" />
-                <element signature="e#9973#12194#0#PHP" />
-                <element signature="e#10039#10348#0#PHP" />
-                <element signature="e#10304#10348#0#PHP" />
-                <element signature="e#11921#11971#0#PHP" />
-                <element signature="e#12086#12166#0#PHP" />
-                <element signature="e#12200#13772#0#PHP" />
-                <element signature="e#13664#13744#0#PHP" />
-                <element signature="e#13778#14792#0#PHP" />
-                <element signature="e#13887#14150#0#PHP" />
-                <element signature="e#13987#14095#0#PHP" />
-                <element signature="e#14043#14095#0#PHP" />
-                <element signature="e#14106#14150#0#PHP" />
-                <element signature="e#14713#14764#0#PHP" />
-                <element signature="e#14798#15299#0#PHP" />
-                <element signature="e#15083#15163#0#PHP" />
-                <element signature="e#15172#15269#0#PHP" />
-                <element signature="e#15305#16375#0#PHP" />
-                <element signature="e#15611#15691#0#PHP" />
-                <element signature="e#15700#16083#0#PHP" />
-                <element signature="e#15755#15860#0#PHP" />
-                <element signature="e#15873#15979#0#PHP" />
-                <element signature="e#16028#16083#0#PHP" />
-                <element signature="e#16381#16759#0#PHP" />
-                <element signature="e#16765#17717#0#PHP" />
-                <element signature="e#16973#17113#0#PHP" />
-                <element signature="e#17122#17427#0#PHP" />
-                <element signature="e#17428#17450#0#PHP" />
-                <element signature="e#17632#17688#0#PHP" />
-                <element signature="e#17723#19093#0#PHP" />
-                <element signature="e#17790#18817#0#PHP" />
-                <element signature="e#17830#18026#0#PHP" />
-                <element signature="e#18087#18314#0#PHP" />
-                <element signature="e#18167#18299#0#PHP" />
-                <element signature="e#18327#18807#0#PHP" />
-                <element signature="e#18372#18793#0#PHP" />
-                <element signature="e#18420#18775#0#PHP" />
-                <element signature="e#18471#18751#0#PHP" />
-                <element signature="e#18526#18665#0#PHP" />
-                <element signature="e#18827#18961#0#PHP" />
-                <element signature="e#19009#19065#0#PHP" />
-                <element signature="e#19099#19672#0#PHP" />
-                <element signature="e#19143#19329#0#PHP" />
-                <element signature="e#19382#19587#0#PHP" />
-                <element signature="e#19426#19547#0#PHP" />
-                <element signature="e#19678#20546#0#PHP" />
-                <element signature="e#20256#20461#0#PHP" />
-                <element signature="e#20300#20421#0#PHP" />
-                <element signature="e#20552#20635#0#PHP" />
-                <element signature="e#20641#22515#0#PHP" />
-                <element signature="e#20697#21044#0#PHP" />
-                <element signature="e#21117#22484#0#PHP" />
-                <element signature="e#21158#22474#0#PHP" />
-                <element signature="e#21298#22207#0#PHP" />
-                <element signature="e#21350#22189#0#PHP" />
-                <element signature="e#21482#22167#0#PHP" />
-                <element signature="e#21534#22141#0#PHP" />
-                <element signature="e#21653#22111#0#PHP" />
-                <element signature="e#21724#22077#0#PHP" />
-                <element signature="e#22224#22460#0#PHP" />
-                <element signature="e#22272#22441#0#PHP" />
-                <element signature="e#22521#22844#0#PHP" />
-                <element signature="e#22577#22742#0#PHP" />
-                <element signature="e#22850#23259#0#PHP" />
-                <element signature="e#22907#23184#0#PHP" />
-                <element signature="e#23265#23699#0#PHP" />
-                <element signature="e#23322#23534#0#PHP" />
-                <element signature="e#23581#23671#0#PHP" />
-                <element signature="e#23705#28338#0#PHP" />
-                <element signature="e#23789#23893#0#PHP" />
-                <element signature="e#23902#24065#0#PHP" />
-                <element signature="e#23945#24055#0#PHP" />
-                <element signature="e#24096#24185#0#PHP" />
-                <element signature="e#24216#24305#0#PHP" />
-                <element signature="e#24545#24644#0#PHP" />
-                <element signature="e#24653#24996#0#PHP" />
-                <element signature="e#25069#28307#0#PHP" />
-                <element signature="e#25110#28297#0#PHP" />
-                <element signature="e#25250#28030#0#PHP" />
-                <element signature="e#25302#28012#0#PHP" />
-                <element signature="e#25499#27990#0#PHP" />
-                <element signature="e#25583#26733#0#PHP" />
-                <element signature="e#25702#26703#0#PHP" />
-                <element signature="e#25773#26669#0#PHP" />
-                <element signature="e#25840#26631#0#PHP" />
-                <element signature="e#26259#26631#0#PHP" />
-                <element signature="e#26760#27990#0#PHP" />
-                <element signature="e#26814#27964#0#PHP" />
-                <element signature="e#26933#27934#0#PHP" />
-                <element signature="e#27004#27900#0#PHP" />
-                <element signature="e#27071#27862#0#PHP" />
-                <element signature="e#27490#27862#0#PHP" />
-                <element signature="e#28047#28283#0#PHP" />
-                <element signature="e#28095#28264#0#PHP" />
-                <element signature="e#28344#28467#0#PHP" />
+                <element signature="e#40#90#0#PHP" expanded="true" />
+                <element signature="e#1770#2445#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -184,7 +68,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../laravel-mautic-api-master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -230,12 +114,6 @@
               <item name="laravel-pipefy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-pipefy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-pipefy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-pipefy" type="b2602c69:ProjectViewProjectNode" />
@@ -293,15 +171,16 @@
       <updated>1549650751214</updated>
       <workItem from="1549650752919" duration="11000" />
       <workItem from="1549731004378" duration="583000" />
-      <workItem from="1549765021484" duration="28585000" />
+      <workItem from="1549765021484" duration="28775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29179000" />
+    <option name="totallyTimeSpent" value="29369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="25" width="1331" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25758755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -316,7 +195,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,13 +254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Facades/Pipefy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../laravel-mautic-api-master/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -394,13 +266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="29" column="4" selection-start-line="21" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -441,29 +306,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/pipefy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PipefyServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-275">
           <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="e#40#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factories/PipefyFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="56" column="5" selection-start-line="42" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="e#1239#1664#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -607,13 +455,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/pipefy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Facades/Pipefy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factories/PipefyFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pipefy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="1680">
           <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
           <folding>
             <element signature="e#40#90#0#PHP" expanded="true" />
-            <element signature="e#1684#2293#0#PHP" />
+            <element signature="e#1770#2445#0#PHP" />
           </folding>
         </state>
       </provider>
