@@ -1,6 +1,6 @@
-<?php namespace EduardoAVargas\Pipefy;
+<?php namespace PipefyWrapper;
 
-use EduardoAVargas\Pipefy\Factories\PipefyFactory;
+use PipefyWrapper\Factories\PipefyFactory;
 use GrahamCampbell\Manager\AbstractManager;
 use Illuminate\Contracts\Config\Repository;
 

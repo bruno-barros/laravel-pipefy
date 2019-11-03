@@ -1,4 +1,4 @@
-<?php namespace EduardoAVargas\Pipefy\Facades;
+<?php namespace PipefyWrapper\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

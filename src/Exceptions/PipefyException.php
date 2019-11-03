@@ -1,4 +1,4 @@
-<?php namespace EduardoAVargas\Pipefy\Exceptions;
+<?php namespace PipefyWrapper\Exceptions;
 /**
  * Invalid Request Exception
  *

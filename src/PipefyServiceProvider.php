@@ -1,4 +1,4 @@
-<?php namespace EduardoAVargas\Pipefy;
+<?php namespace PipefyWrapper;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
@@ -44,7 +44,7 @@ class PipefyServiceProvider extends ServiceProvider {
             return new Factories\PipefyFactory();
         });
 
-        $app->alias('pipefy.factory', 'EduardoAVargas\Pipefy\Factories\PipefyFactory');
+        $app->alias('pipefy.factory', 'PipefyWrapper\Factories\PipefyFactory');
     }
 
     /**
@@ -63,7 +63,7 @@ class PipefyServiceProvider extends ServiceProvider {
             return new Pipefy($config, $factory);
         });
 
-        $app->alias('pipefy', 'EduardoAVargas\Pipefy\Pipefy');
+        $app->alias('pipefy', 'PipefyWrapper\Pipefy');
     }
 
     /**
@@ -72,7 +72,7 @@ class PipefyServiceProvider extends ServiceProvider {
      * @return routes
      */
     protected function registerRoutes(Application $app) {
-     /*   $app['router']->group(['namespace' => 'EduardoAVargas\Pipefy\Http\Controllers', "prefix" => "pipefy"], function () {
+     /*   $app['router']->group(['namespace' => 'PipefyWrapper\Http\Controllers', "prefix" => "pipefy"], function () {
             require __DIR__.'/routes.php';
         });*/
     }

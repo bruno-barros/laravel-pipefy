@@ -1,4 +1,4 @@
-<?php namespace EduardoAVargas\Pipefy\Factories;
+<?php namespace PipefyWrapper\Factories;
 
 
 class PipefyFactory
