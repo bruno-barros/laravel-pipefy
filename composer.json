@@ -1,12 +1,12 @@
 {
-    "name": "eduardoavargas/laravel-pipefy",
-    "description": "Consumir api do Pipefy em Laravel",
+    "name": "bruno-barros/pipefy-wrapper",
+    "description": "Consumir api do Pipefy",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Eduardo Vargas",
-            "email": "eduardo.a.vargas@gmail.com"
+            "name": "Bruno Barros",
+            "email": "brunodanca@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -19,19 +19,9 @@
         "guzzlehttp/guzzle": "^6.3.3",
         "graham-campbell/manager": "^4.2"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "EduardoAVargas\\Pipefy\\PipefyServiceProvider"
-            ],
-            "aliases": {
-                "Pipefy": "EduardoAVargas\\Pipefy\\Facades\\Pipefy"
-            }
-        }
-    },
     "autoload": {
         "psr-4": {
-            "EduardoAVargas\\Pipefy\\": "src/"
+            "PipefyWrapper\\": "src/"
         }
     }
 }
